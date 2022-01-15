@@ -1,3 +1,80 @@
 .muscle-diagram {
     max-width: 70%;
 }
+
+.soreness-quiz {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.area {
+    display: block;
+    margin-top: 2em;
+    margin-right: 20%;
+    font-size: 1.5em;
+}
+
+.head-container {
+    display: flex;
+    flex-direction: row;
+}
+.human-body {
+    width: 207px;
+    position: relative;
+    padding-top: 240px;
+    height: 260px;
+    display: block;
+    margin: 40px auto;
+}
+.human-body svg:hover {
+    cursor: pointer;
+}
+.human-body svg:hover path {
+    /*fill: #afafaf;*/
+}
+.human-body svg {
+    position: absolute;
+    left: 0%;
+    fill: #c8c8c8;
+}
+.human-body svg.head {
+    margin-left: -28.5px;
+    top: -6px;
+}
+.human-body svg.shoulder {
+    margin-left: -53.5px;
+    top: 69px;
+}
+.human-body svg.arm {
+    margin-left: -78px;
+    top: 112px;
+}
+.human-body svg.chest {
+    margin-left: -43.5px;
+    top: 88px;
+}
+.human-body svg.stomach {
+    margin-left: -37.5px;
+    top: 130px;
+}
+.human-body svg.legs {
+    margin-left: -46.5px;
+    top: 205px;
+    z-index: 9999;
+}
+.human-body svg.hands {
+    margin-left: -102.5px;
+    top: 224px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.resetBtn, .submitBtn {
+    height: 4em;
+    width: 8em;
+}
