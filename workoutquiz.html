@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>workoutQuiz</title>
+    <link rel="stylesheet" href="styles/base.css">
+  </head>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    .LOSEWEIGHT_LABEL {
+      position: relative;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, 400%);
+    }
+    .BULK_LABEL {
+      position: relative;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, 380%);
+    }
+    .CUT_LABEL {
+      position: relative;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, 400%);
+    }
+    .STRENGTH_LABEL {
+      position: relative;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, 400%);
+    }
+    .column {
+      flex: 5%;
+      padding: 5px;
+    }
+  </style>
+
+  <body>
+    <header>
+      <h1 class="title">Muscle Buddy</h1>
+      <nav>
+          <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="quiz.html">Soreness Quiz</a></li>
+              <li><a href="workoutquiz.html">Workout Quiz</a></li>
+              <li><a href="#">Results & Recommendations</a></li>
+              <li><a href="#">Gym Guidelines</a></li>
+          </ul>
+      </nav>
+  </header>
+  <h1 style="text-align: center">What Are You Looking For?</h1>
+    <center>
+      <div class="column">
+        <div
+          class="LOSEWEIGHT_LABEL"
+          style="font-size: 300%; background-color: white"
+        >
+          LOSE WEIGHT
+        </div>
+        <a href="workoutPages/loseweight.html">
+          <img src="imgs/loseweight.jpeg" />
+        </a>
+
+        <div
+          class="BULK_LABEL"
+          style="font-size: 300%; background-color: white"
+        >
+          BULK
+        </div>
+        <a href="workoutPages/bulk.html">
+          <img src="imgs/gainweight.jpg" />
+        </a>
+
+        <div class="CUT_LABEL" style="font-size: 300%; background-color: white">
+          CUT
+        </div>
+
+        <!-- <h1 class="CUT_LABEL">
+          <span style="background-color: white">CUT</span>
+        </h1> -->
+        <a href="workoutPages/cut.html">
+          <img src="imgs/cut.jpg" />
+        </a>
+
+        <div
+          class="STRENGTH_LABEL"
+          style="font-size: 300%; background-color: white"
+        >
+          STRENGTH
+        </div>
+        <a href="workoutPages/strength.html">
+          <img src="imgs/strength.jpg" />
+        </a>
+      </div>
+    </center>
+  </body>
+</html>
